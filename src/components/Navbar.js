@@ -5,9 +5,9 @@ export default function Navbar(props) {
   
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor:"#03C04A"}}>
+      <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor:"#512889"}}>
   <div className="container-fluid">
-    <a className="navbar-brand" href="#" style={{color:"#880085"}}><b>News Stream</b></a>
+    <a className="navbar-brand" href="#" style={{color:"#E6E8FA"}}><b>News Stream</b></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

@@ -15,7 +15,8 @@ export default function News(props) {
   useEffect(()=>{getData();},[props.category]);
   
   return (
-    <div style={{backgroundColor:"#FFFDD0"}}>
+    <div style={{ background: 'linear-gradient(to right, #ff5ccb94, #502889c8)' }}>
+
     <div className="container">
       <h3 className='pt-5'>Top Headlines</h3>
       
