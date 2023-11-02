@@ -18,7 +18,7 @@ export default function News(props) {
     <div style={{ background: 'linear-gradient(to right, #ff5ccb94, #502889c8)' }}>
 
     <div className="container">
-      <h3 className='pt-5'>Top Headlines</h3>
+      <h3 className='pt-5'>Top Headlines from {props.category}</h3>
       
       <div className="row">
       {data.map((currdata)=>{return(
