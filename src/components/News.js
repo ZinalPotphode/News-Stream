@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import name1 from './../../src/components/images.jpg'
 
 export default function News(props) {
   const[data,setData]=useState([]);
@@ -26,7 +27,7 @@ export default function News(props) {
       
       
       <div className="card" style={{width: "5 rem"}}>
-  <img src={currdata.urlToImage?currdata.urlToImage:"components/images.jpg"} className="card-img-top" alt="..."/>
+  <img src={currdata.urlToImage?currdata.urlToImage:name1} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">{currdata.title&&currdata.title.length>79?currdata.title.slice(0,79)+"...":currdata.title}</h5>
     <p className="card-text">{currdata.description&&currdata.description.length>153?currdata.description.slice(0,153)+"...":currdata.description}</p>
